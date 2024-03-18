@@ -72,7 +72,7 @@ declare module "@formfusion/vat" {
     [K in keyof T as K extends string ? Lowercase<K> : never]: T[K];
   };
 
-  type vat = LowercaseKeys<Vat>;
+  const vat: LowercaseKeys<Vat>;
 
   export = vat;
 }
