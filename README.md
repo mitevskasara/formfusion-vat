@@ -1,6 +1,6 @@
 # @formfusion/vat
 
-Set of validation rules for worldwide VAT numbers, used for the [FormFusion](https://www.corelabui.com/formfusion) (form management & validation) library.
+Set of validation rules for worldwide VAT numbers.
 
 A zero-dependency lookup table of **68 country-specific regex patterns** for validating VAT (Value Added Tax) identification numbers. Every pattern is anchored and works directly as an HTML [`pattern`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) attribute value, so you can use it with plain HTML, React, FormFusion, or `new RegExp()`.
 
